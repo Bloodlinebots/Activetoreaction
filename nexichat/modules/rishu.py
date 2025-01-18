@@ -31,7 +31,7 @@ async def start(bot: Client, msg: Message):
                     InlineKeyboardButton(text="❍ 𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ ❍", url="https://t.me/REACTION7_ROBOT?startgroup=true")
                 ],
                 [
-                    InlineKeyboardButton(text="❍ 𝐒ᴛʀɪɴɢ ❍", url="https://t.me/rishustringbot")
+                    InlineKeyboardButton(text="❍ 𝐒ᴛʀɪɴɢ ❍", url="https://t.me/STRING_SESSION_GENN_BOT")
                 ],
                 [
                     InlineKeyboardButton("❍ 𝐒ᴜᴘᴘᴏʀᴛ ❍", url="https://t.me/BOT_SUPPORTGROUP"),
@@ -50,7 +50,7 @@ async def start(bot: Client, msg: Message):
 InlineKeyboardButton("❍ 𝐂ʜᴀᴛ 𝐁ᴏᴛ ❍", url=f"https://t.me/KhushiXchatbot"),
 ],
 [
-InlineKeyboardButton("❍ 𝐒ᴛʀɪɴɢ 𝐁ᴏᴛ ❍", url=f"https://t.me/RishuStringBot"),
+InlineKeyboardButton("❍ 𝐒ᴛʀɪɴɢ 𝐁ᴏᴛ ❍", url=f"https://t.me/STRING_SESSION_GENN_BOT"),
 InlineKeyboardButton("❍ 𝐂ᴀᴍᴇʀᴀ 𝐇ᴀᴄᴋ ❍", url=f"https://t.me/RISHU_CAMERA_ROBOT"),
 ],
 [
