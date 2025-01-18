@@ -42,9 +42,9 @@ PNG_BTN = [
 ]
 
 
-BACK = [
+SBACK = [
     [
-        InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="BACK"),
+        InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="CLONEBACK"),
     ],
 ]
 
