@@ -17,14 +17,14 @@ from nexichat.modules.helpers import (
     ABOUT_BTN,
     ABOUT_READ,
     ADMIN_READ,
-    BBACK,
+    BACK,
     CHATBOT_BACK,
     CHATBOT_READ,
     DEV_OP,
     HELP_BTN,
-    HHELP_READ,
+    HELP_READ,
     MUSIC_BACK_BTN,
-    SSTART,
+    START,
     TOOLS_DATA_READ,
     
 )
@@ -44,7 +44,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Closed menu!", show_alert=True)
     elif query.data == "BACK":
         await query.message.edit(
-            text=SSTART,
+            text=START,
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
     elif query.data == "ABOUT":
