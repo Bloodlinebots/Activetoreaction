@@ -5,10 +5,11 @@ from nexichat import OWNER, nexichat
 
 
 START_BOT = [
-    
-    [
-        InlineKeyboardButton(text="🛠️ σρεи ¢σммαиdꜱ ⚙️", callback_data="HELP"),
-    ],
+                [InlineKeyboardButton("❖ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ❖", url="https://t.me/REACTION7_ROBOT?startgroup=true")],
+                [InlineKeyboardButton("• σᴡηєꝛ •", user_id=OWNER),
+                 InlineKeyboardButton("• ᴄʟσηє •", callback_data="CLONE")], 
+                [InlineKeyboardButton("• υᴘᴅᴧᴛє •", url="https://t.me/ll_BOTCHAMBER_ll"),
+                InlineKeyboardButton("• sυᴘᴘσꝛᴛ •", url="https://t.me/BOT_SUPPORT_GROUP7")]
 ]
 
 
