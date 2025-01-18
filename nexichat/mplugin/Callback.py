@@ -22,9 +22,9 @@ from nexichat.modules.helpers import (
     CHATBOT_READ,
     DEV_OP,
     HELP_BTN,
-    HELP_READ,
+    HHELP_READ,
     MUSIC_BACK_BTN,
-    START,
+    SSTART,
     TOOLS_DATA_READ,
     
 )
