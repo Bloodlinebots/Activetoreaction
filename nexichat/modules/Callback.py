@@ -44,7 +44,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "CLONE":
         await query.message.edit(
-            text=CLONE_READ,
+            text=HELP_READ,
             reply_markup=InlineKeyboardMarkup(CLONEBACK),
         )
         
