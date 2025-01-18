@@ -39,6 +39,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(HELP_BTN),
             disable_web_page_preview=True,
         )
+      #-----------------------------#  
+        #TESTING HAI CALLBACK KA#
+    
+    elif query.data == "CLONE":
+        await query.message.edit(
+            text=CLONE_READ,
+            reply_markup=InlineKeyboardMarkup(CLONEBACK),
+        )
+        
+        #CALLBACK KA BACK START KA #
+    
+    elif query.data == "CLONEBACK":
+        await query.message.edit(
+            text=START_TEXT,
+            reply_markup=InlineKeyboardMarkup(STARTBOTTOM),
+        )
+    #--------------------------------# 
     elif query.data == "CLOSE":
         await query.message.delete()
         await query.answer("Closed menu!", show_alert=True)
