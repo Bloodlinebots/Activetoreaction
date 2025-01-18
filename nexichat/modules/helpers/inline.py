@@ -4,7 +4,7 @@ from config import SUPPORT_GRP, UPDATE_CHNL
 from nexichat import OWNER, nexichat
 
 
-START_BOT = [
+START_BOT= [
                 [InlineKeyboardButton("❖ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ❖", url="https://t.me/REACTION7_ROBOT?startgroup=true")],
                 [InlineKeyboardButton("• σᴡηєꝛ •", user_id=OWNER),
                  InlineKeyboardButton("• ᴄʟσηє •", callback_data="CLONE")], 
