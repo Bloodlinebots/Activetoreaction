@@ -17,7 +17,7 @@ from nexichat.modules.helpers import (
     ABOUT_BTN,
     ABOUT_READ,
     ADMIN_READ,
-    BACK,
+    SBACK,
     CHATBOT_BACK,
     CHATBOT_READ,
     DEV_OP,
