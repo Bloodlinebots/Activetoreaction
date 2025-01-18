@@ -44,7 +44,7 @@ PNG_BTN = [
 
 SBACK = [
     [
-        InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="CLONEBACK"),
+        InlineKeyboardButton("⦿ ʙᴀᴄᴋ ⦿", callback_data="CLONEBACK"),
     ],
 ]
 
