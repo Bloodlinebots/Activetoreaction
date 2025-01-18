@@ -4,7 +4,7 @@ from config import SUPPORT_GRP, UPDATE_CHNL
 from nexichat import OWNER, nexichat
 
 
-SSTART_BOT = [
+START_BOT = [
     
     [
         InlineKeyboardButton(text="🛠️ σρεи ¢σммαиdꜱ ⚙️", callback_data="HELP"),
@@ -39,7 +39,7 @@ PNG_BTN = [
 ]
 
 
-BBACK = [
+BACK = [
     [
         InlineKeyboardButton(text="⦿ ʙᴀᴄᴋ ⦿", callback_data="BACK"),
     ],
