@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from nexichat import nexichat
-
+OWNER = 6949414014
 @nexichat.on_message(filters.command("start"))
 async def start_message(client: Client, message: Message):
     # Sending a video along with the reply text
@@ -13,8 +13,8 @@ async def start_message(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("❖ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ❖", url="https://t.me/REACTION7_ROBOT?startgroup=true")],
-                [InlineKeyboardButton(text="❍ 𝐎ᴡɴᴇʀ ❍", user_id=OWNER),
-                 InlineKeyboardButton(text="❍ 𝐇ᴇʟᴘ ❍", callback_data="HELP")], 
+                [InlineKeyboardButton(text="• σᴡηєꝛ •", user_id=OWNER),
+                 InlineKeyboardButton(text="• ᴄʟσηє •", callback_data="HELP")], 
                 [InlineKeyboardButton("• υᴘᴅᴧᴛє •", url="https://t.me/ll_BOTCHAMBER_ll"),
                 InlineKeyboardButton("• sυᴘᴘσꝛᴛ •", url="https://t.me/BOT_SUPPORT_GROUP7")]
             ]
