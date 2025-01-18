@@ -44,7 +44,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Closed menu!", show_alert=True)
     elif query.data == "BACK":
         await query.message.edit(
-            text=START,
+            text=SSTART,
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
     elif query.data == "ABOUT":
