@@ -13,6 +13,8 @@ async def start_message(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("❖ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ❖", url="https://t.me/REACTION7_ROBOT?startgroup=true")],
+                [InlineKeyboardButton(text="❍ 𝐎ᴡɴᴇʀ ❍", user_id=OWNER),
+                 InlineKeyboardButton(text="❍ 𝐇ᴇʟᴘ ❍", callback_data="HELP")], 
                 [InlineKeyboardButton("• υᴘᴅᴧᴛє •", url="https://t.me/ll_BOTCHAMBER_ll"),
                 InlineKeyboardButton("• sυᴘᴘσꝛᴛ •", url="https://t.me/BOT_SUPPORT_GROUP7")]
             ]
